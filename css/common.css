@@ -627,13 +627,9 @@ input.datepicker {position:relative; background:white url('../img/icon_datepicke
 /* EOD : jquery-bootstrap-scrolling-tabs */
 
 
-.scrollBar {overflow:hidden; padding:0 0 10px}
-.scrollBar ul {overflow:hidden}
-.scrollBar ul > li {float:left;}
-.scrollBar .testBox {width:500px; height:200px; background-color:blue}
-.scrollBar .barWrap {height:15px;}
-.scrollBar .barArea {position: relative;  margin: 10px 0 0;  width: 100%;  height: 5px;  background-color: #d7d7d7;  border-radius: 10px;}
-.scrollBar .barArea .bar { position: absolute;  top: 0;  left: 0;   width: 100px;  height: 5px;  border-radius: 10px; background-color: blue;}
+.slierWrap {position:relative; overflow: hidden; background-color:white; height:460px; }
+.slierArea {position:absolute; width:100%; height:100%;}
+.slierArea > a {position:absolute; left:50%; transform:translateX(-50%)}
 
 /* EOD : function */
 

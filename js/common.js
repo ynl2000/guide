@@ -9,6 +9,7 @@ $(document).ready(function(){
 	textcount();
 	upload();
 	top_btn();
+	slider();
 
 });
 
@@ -725,6 +726,11 @@ $.fn.chart = function(opts){
 
 	}
 	/* EOD : 가로형 차트 */
+};
+
+
+$.fn.slider = function(opts){
+
 
 
 };
